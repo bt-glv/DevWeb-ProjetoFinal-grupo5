@@ -10,13 +10,14 @@
 		<!-- Icones e fonte  -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 		<!-- Devicons -->
 		<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 		<!-- CSS da página -->
         <link href="css/style.css" rel="stylesheet" />
 		<!-- Bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     </head>
 
@@ -24,50 +25,96 @@
     <body id="page-top">
 
 
-	<nav class="navbar navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary position-relative p-3">
+		  <div class="container-fluid">
 
-		<div class="col gy-md-2">
-			<div class="row justify-content-center">
 
-				<div class="col-3 ">
-					<a class="navbar-brand"><img class="img-fluid" src="img/logo.png"></a>
-				</div>
+					<a class="navbar-brand" href="#">LOGO</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
 
-				<div class="col-6 justify-content-center ">
-					<div class="row justify-content-center">
-						<a class="nav-link active" aria-current="page" href="#">Academias</a>
-						<a class="nav-link active" aria-current="page" href="#">Instrutores</a>
-						<a class="nav-link active" aria-current="page" href="#">Wrokshops</a>
+					<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+							  <div class="offcanvas-header">
+								<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							  </div>
+
+							  <div class="offcanvas-body">
+<!-- canvas body START -->
+								<div class="col gy-md-2">
+									<div class="row justify-content-center gy-md-2">
+										<div class="col-12 justify-content-center ">
+											<div class="row justify-content-center">
+												<a class="col-1 nav-link active" aria-current="page" href="#">Academias</a>
+												<a class="col-1 nav-link active" aria-current="page" href="#">Instrutores</a>
+												<a class="col-1 nav-link active" aria-current="page" href="#">Wrokshops</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="row justify-content-center">
+										<div class="col justify-content-center">
+											<div class="row justify-content-center">
+												<h5>Search bar here</h5>
+											</div>
+									</div>
+
+<!-- canvas body END -->
+							  </div>
+
+					</div>
+
+
+		  </div>
+		</nav>
+
+		<section id="em_alta">
+
+			<div class="container">
+
+
+				<div class="flex-column">
+					<div class="row">
+						<h2>Em alta</h2>
+						<p>Confira as novidades e promoções</p>
+					</div>
+
+					<div class="row gy-4">
+
+						<div class="col-md-3">
+							<div class="card card-academia" style="background-color: #d9d9d9;">
+								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+								<div class="card-body p-3">
+									<h5 class="card-titulo">Smart Fit</h5>
+									<div class="m-0">
+										<p class="text-muted"><strong>R$000</strong></p>
+										<p class="text-muted">Brasil, Belo Horizonte</p>
+										<p><span><i></i></span>Espetacular 100 avaliações</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 				</div>
 
-				<div class="col-3 ">
-					<div class="row justify-content-center">
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-							<i class="fas fa-bars ms-1"></i>
-						</button>
-					</div>
-				</div>
+
 			</div>
 
-			<div class="row">
-			</div>
 
-		</div>
+		</section>
 
-	</nav>
-
-
-
-
+		<section id="ofertas"></section>
+		<section id="ad"></section>
 
         <footer class="footer py-4">
         </footer>
 
 		<!-- Bootstrap core JS -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-		<!-- jQuery -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </body>
 
 
