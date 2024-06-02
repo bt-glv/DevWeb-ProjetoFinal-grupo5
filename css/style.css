@@ -2,11 +2,15 @@
 	font-family: 'Inter', sans-serif;
 }
 
-#em_alta {
-margin-top:3%;
+
+.topic {
+margin-top:8%;
 }
 
-
+.rodape-margins {
+	margin-right:4rem;
+	margin-left:4rem;
+}
 
 /*
 Cards e relacionados
