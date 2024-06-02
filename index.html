@@ -1,268 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <title></title>
+	<title></title>
 
-		<!-- Icones e fonte  -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-		<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-		<!-- Devicons -->
-		<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-		<!-- CSS da página -->
-        <link href="css/style.css" rel="stylesheet" />
-		<!-- Bootstrap -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Icones e fonte  -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+	<!-- Devicons -->
+	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+	<!-- CSS da página -->
+	<link href="css/style.css" rel="stylesheet" />
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    </head>
-
-
-    <body id="page-top">
+</head>
 
 
-		<nav class="navbar navbar-expand-lg bg-body-tertiary position-relative p-3">
-		  <div class="container-fluid">
-
-
-					<a class="navbar-brand" href="#">LOGO</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-					  <span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-
-							  <div class="offcanvas-header">
-								<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-							  </div>
-
-							  <div class="offcanvas-body">
-<!-- canvas body START -->
-								<div class="col">
-									<div class="row justify-content-center">
-										<div class="col-10 justify-content-center ">
-											<div class="row justify-content-center">
-												<a class="col-1 nav-link active" aria-current="page" href="#">Academias</a>
-												<a class="col-1 nav-link active" aria-current="page" href="#">Instrutores</a>
-												<a class="col-1 nav-link active" aria-current="page" href="#">Wrokshops</a>
-											</div>
-										</div>
-										<div class="col-2"></div>
-									</div>
-
-									<div class="row justify-content-center mt-2">
-										<div class="col-10 justify-content-center">
-											<div class="row justify-content-center">
-												<div class="d-flex justify-content-center">
-													<h5>Search bar here</h5>
-												</div>
-											</div>
-										</div>
-										<div class="col-2"></div>
-									</div>
-								</div>
-
-<!-- canvas body END -->
-							  </div>
-
-					</div>
-
-
-		  </div>
+<body id="page-top">
+	<header>
+		<nav>
+			<div class="nav-bar-custom">
+				<div class="logo">
+					<a href="">ClassFit</a>
+				</div>
+				<ul class="navigator">
+					<li><a href="">Academias</a></li>
+					<li><a href="">Suplementos</a></li>
+					<li><a href="">Instrutores</a></li>
+				</ul>
+				<div class="button-menu">
+					<img class="img-menu" src="img/menu-bars.svg" alt="">
+					<img class="img-icone" src="img/profile_icone.svg" alt="">
+				</div>
+			</div>
+			<div class="nav-bar-search">
+				<div class="input-wrapper">
+					<input type="text" class="input-with-icon" placeholder="Digite algo...">
+					<span class="input-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+					<!-- Você pode substituir isso por um ícone de uma biblioteca como FontAwesome -->
+				</div>
+			</div>
 		</nav>
 
-		<section class="topic" id="ofertas">
-			<div class="container">
+	</header>
 
 
-				<div class="flex-column">
-					<div class="row">
-						<h2>Ofertas na sua região</h2>
-						<p>Promoções por tempo limitado</p>
-					</div>
+	<section class="topic" id="ofertas">
+		<div class="container">
 
-					<div class="row gy-5">
 
-						<div class="col-md-3">
-							<div class="card card-academia" style="background-color: #d9d9d9;">
-								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
-								<div class="card-body p-3">
-									<h5 class="card-titulo">Smart Fit</h5>
-									<div class="m-0">
-										<p class="text-muted"><strong>R$000</strong></p>
-										<p class="text-muted">Brasil, Belo Horizonte</p>
-										<p><span><i></i></span>Espetacular 100 avaliações</p>
-									</div>
-								</div>
-							</div>
-						</div>  
-
-						<div class="col-md-3">
-							<div class="card card-academia" style="background-color: #d9d9d9;">
-								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
-								<div class="card-body p-3">
-									<h5 class="card-titulo">Smart Fit</h5>
-									<div class="m-0">
-										<p class="text-muted"><strong>R$000</strong></p>
-										<p class="text-muted">Brasil, Belo Horizonte</p>
-										<p><span><i></i></span>Espetacular 100 avaliações</p>
-									</div>
-								</div>
-							</div>
-						</div>  
-
-						<div class="col-md-3">
-							<div class="card card-academia" style="background-color: #d9d9d9;">
-								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
-								<div class="card-body p-3">
-									<h5 class="card-titulo">Smart Fit</h5>
-									<div class="m-0">
-										<p class="text-muted"><strong>R$000</strong></p>
-										<p class="text-muted">Brasil, Belo Horizonte</p>
-										<p><span><i></i></span>Espetacular 100 avaliações</p>
-									</div>
-								</div>
-							</div>
-						</div>  
-
-					</div>
+			<div class="flex-column">
+				<div class="row">
+					<h2>Ofertas na sua região</h2>
+					<p>Promoções por tempo limitado</p>
 				</div>
 
+				<div class="row gy-5">
 
-			</div>
-		</section>
-
-		<section class="topic" id="em_alta">
-			<div class="container">
-				<div class="flex-column">
-					<div class="row">
-						<h2>Em alta</h2>
-						<p>Confira as novidades e promoções</p>
+					<div class="col-md-3">
+						<div class="card card-academia" style="background-color: #d9d9d9;">
+							<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-3">
+								<h5 class="card-titulo">Smart Fit</h5>
+								<div class="m-0">
+									<p class="text-muted"><strong>R$000</strong></p>
+									<p class="text-muted">Brasil, Belo Horizonte</p>
+									<p><span><i></i></span>Espetacular 100 avaliações</p>
+								</div>
+							</div>
+						</div>
 					</div>
 
-					<div class="row gy-5">
+					<div class="col-md-3">
+						<div class="card card-academia" style="background-color: #d9d9d9;">
+							<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-3">
+								<h5 class="card-titulo">Smart Fit</h5>
+								<div class="m-0">
+									<p class="text-muted"><strong>R$000</strong></p>
+									<p class="text-muted">Brasil, Belo Horizonte</p>
+									<p><span><i></i></span>Espetacular 100 avaliações</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-						<div class="col-md-3">
-							<div class="card card-academia" style="background-color: #d9d9d9;">
-								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
-								<div class="card-body p-3">
-									<h5 class="card-titulo">Smart Fit</h5>
-									<div class="m-0">
-										<p class="text-muted"><strong>R$000</strong></p>
-										<p class="text-muted">Brasil, Belo Horizonte</p>
-										<p><span><i></i></span>Espetacular 100 avaliações</p>
-									</div>
+					<div class="col-md-3">
+						<div class="card card-academia" style="background-color: #d9d9d9;">
+							<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-3">
+								<h5 class="card-titulo">Smart Fit</h5>
+								<div class="m-0">
+									<p class="text-muted"><strong>R$000</strong></p>
+									<p class="text-muted">Brasil, Belo Horizonte</p>
+									<p><span><i></i></span>Espetacular 100 avaliações</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="card card-academia" style="background-color: #d9d9d9;">
-								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
-								<div class="card-body p-3">
-									<h5 class="card-titulo">Smart Fit</h5>
-									<div class="m-0">
-										<p class="text-muted"><strong>R$000</strong></p>
-										<p class="text-muted">Brasil, Belo Horizonte</p>
-										<p><span><i></i></span>Espetacular 100 avaliações</p>
-									</div>
-								</div>
-							</div>
-						</div>
+					</div>
 
-						<div class="col-md-3">
-							<div class="card card-academia" style="background-color: #d9d9d9;">
-								<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
-								<div class="card-body p-3">
-									<h5 class="card-titulo">Smart Fit</h5>
-									<div class="m-0">
-										<p class="text-muted"><strong>R$000</strong></p>
-										<p class="text-muted">Brasil, Belo Horizonte</p>
-										<p><span><i></i></span>Espetacular 100 avaliações</p>
-									</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section class="topic" id="em_alta">
+		<div class="container">
+			<div class="flex-column">
+				<div class="row">
+					<h2>Em alta</h2>
+					<p>Confira as novidades e promoções</p>
+				</div>
+
+				<div class="row gy-5">
+
+					<div class="col-md-3">
+						<div class="card card-academia" style="background-color: #d9d9d9;">
+							<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-3">
+								<h5 class="card-titulo">Smart Fit</h5>
+								<div class="m-0">
+									<p class="text-muted"><strong>R$000</strong></p>
+									<p class="text-muted">Brasil, Belo Horizonte</p>
+									<p><span><i></i></span>Espetacular 100 avaliações</p>
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card card-academia" style="background-color: #d9d9d9;">
+							<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-3">
+								<h5 class="card-titulo">Smart Fit</h5>
+								<div class="m-0">
+									<p class="text-muted"><strong>R$000</strong></p>
+									<p class="text-muted">Brasil, Belo Horizonte</p>
+									<p><span><i></i></span>Espetacular 100 avaliações</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="card card-academia" style="background-color: #d9d9d9;">
+							<img src="img/smart-fit.jpg" class="card-img-top" alt="...">
+							<div class="card-body p-3">
+								<h5 class="card-titulo">Smart Fit</h5>
+								<div class="m-0">
+									<p class="text-muted"><strong>R$000</strong></p>
+									<p class="text-muted">Brasil, Belo Horizonte</p>
+									<p><span><i></i></span>Espetacular 100 avaliações</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
 
 					<!-- row END -->
-					</div>
-				</div>
-
-
-			</div>
-		</section>
-
-		<section id="ad" class="mt-md-5 mb-md-5">
-			<div class="row justify-content-center">
-					<div class="col-4">
-						<img src="img/footer-image.png" class="img-fluid">
-					</div>
-					<div class="col-6">
-						<div>
-							<h5>Ganhe uma cortesia instantânea</h5>
-							<p> Registre-se e receba 50% de </p>
-							<p> desconta na sua primeira assinatura </p>
-							<p> esportiva </p>
-						</div>
-						<div class="flex-row">
-							<button class="btn btn-primary">Registre-se</button>
-							<button class="btn btn-primary">Entrar</button>
-						</div>
-					</div>
-			</div>
-		</section>
-
-        <footer class="footer py-4">
-			<div class="container">
-				<div class="row">
-					<div class="col-4">
-						<h5>Atendimento</h5>
-						<p>Central de ajuda</p>
-						<p>Antidiscriminação </p>
-						<p>Apoio à pessoa com deficiência </p>
-						<p>Opções de cancelamento </p>
-						<p>Reporte um problema</p>
-					</div>
-					<div class="col-4">
-						<h5>Anuncia</h5>
-						<p>Central de ajuda</p>
-						<p>Antidiscriminação </p>
-						<p>Apoio à pessoa com deficiência </p>
-						<p>Opções de cancelamento </p>
-						<p>Reporte um problema</p>
-					</div>
-					<div class="col-4">
-						<h5>Classfit</h5>
-						<p>Central de ajuda</p>
-						<p>Antidiscriminação </p>
-						<p>Apoio à pessoa com deficiência </p>
-						<p>Opções de cancelamento </p>
-						<p>Reporte um problema</p>
-					</div>
 				</div>
 			</div>
-			</hr>
-			<div class="row mt-4 justify-content-center">
-				<div class="col-8 d-flex flex-row">
-					<div>@ 2024 Empresa, Inc</div>
-					<div>Privacidade</div>
-					<div>termos</div>
-					<div>Mapa do site</div>
-					<div>Informacoes da empresa</div>
+
+
+		</div>
+	</section>
+
+	<section id="ad" class="mt-md-5 mb-md-5">
+		<div class="row justify-content-center">
+			<div class="col-4">
+				<img src="img/footer-image.png" class="img-fluid">
+			</div>
+			<div class="col-6">
+				<div>
+					<h5>Ganhe uma cortesia instantânea</h5>
+					<p> Registre-se e receba 50% de </p>
+					<p> desconta na sua primeira assinatura </p>
+					<p> esportiva </p>
 				</div>
-				<div class="col-3 d-flex flex-row-reverse">
-					<div>[[facebook icon]] [[instagram icon]]</div>
+				<div class="flex-row">
+					<button class="btn btn-primary">Registre-se</button>
+					<button class="btn btn-primary">Entrar</button>
 				</div>
 			</div>
-        </footer>
-		<!-- Bootstrap core JS -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+		</div>
+	</section>
+
+	<footer class="footer py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<h5>Atendimento</h5>
+					<p>Central de ajuda</p>
+					<p>Antidiscriminação </p>
+					<p>Apoio à pessoa com deficiência </p>
+					<p>Opções de cancelamento </p>
+					<p>Reporte um problema</p>
+				</div>
+				<div class="col-4">
+					<h5>Anuncia</h5>
+					<p>Central de ajuda</p>
+					<p>Antidiscriminação </p>
+					<p>Apoio à pessoa com deficiência </p>
+					<p>Opções de cancelamento </p>
+					<p>Reporte um problema</p>
+				</div>
+				<div class="col-4">
+					<h5>Classfit</h5>
+					<p>Central de ajuda</p>
+					<p>Antidiscriminação </p>
+					<p>Apoio à pessoa com deficiência </p>
+					<p>Opções de cancelamento </p>
+					<p>Reporte um problema</p>
+				</div>
+			</div>
+		</div>
+		</hr>
+		<div class="row mt-4 justify-content-center">
+			<div class="col-8 d-flex flex-row">
+				<div>@ 2024 Empresa, Inc</div>
+				<div>Privacidade</div>
+				<div>termos</div>
+				<div>Mapa do site</div>
+				<div>Informacoes da empresa</div>
+			</div>
+			<div class="col-3 d-flex flex-row-reverse">
+				<div>[[facebook icon]] [[instagram icon]]</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap core JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
 
 
 </html>
