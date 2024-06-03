@@ -19,10 +19,9 @@ nav {
 	justify-content: space-between;
 }
 
-.nav-bar-custom .logo{
-	font-weight: bold;
-	font-size: 24px;
-	letter-spacing: 1px;
+.nav-bar-custom .logo img{
+	width: 160px;
+	
 }
 
 .nav-bar-custom .navigator li {
