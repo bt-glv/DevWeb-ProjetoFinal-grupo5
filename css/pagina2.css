@@ -1,3 +1,5 @@
+
+
 section {
 	margin-left: 4%;
 	margin-right: 4%;
@@ -31,7 +33,22 @@ button {
 	display:flex;
 	align-items:center;
 }
+.txt-center {
+	text-align: center;
+}
+.page-start		{ margin-top: 16vh; }
+.page-section 	{ margin-top: 8vh;}
+.form-group 	{ margin-bottom: 1rem; }
+.form-group.nm 	{ margin-bottom:0px; }
+.form-control	{ background-color: #d9d9d9 !important; }
+.form-control.xl{ height: 20vh !important; }
+.form-control.md{ height: 8vh !important; }
 
+#txt-ajuda {
+	margin-left:4vw;
+	margin-right:4vw;
+}
+/* Estilos para o tamanho de tela "sm" */
 @media (max-width: 576px) {
 	#footer_empresas {
 		text-align:center;
@@ -44,7 +61,15 @@ button {
 		align-items:center;
 		margin-bottom:15px;
 	}
-	.footer-item h5 {
-		font-weight:bold;
+	.form-row {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.footer-item h5 { font-weight:bold; }
+	.form-group		{ margin-top:16px; }
+	.page-start		{ margin-top: 8vh; }
+	#txt-ajuda {
+		margin-left: 0px;
+		margin-right:0px;
 	}
 }
