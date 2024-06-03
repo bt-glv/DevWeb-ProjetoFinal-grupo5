@@ -1,0 +1,42 @@
+section {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.bg-secundario{
+	background-color: #d9d9d9;
+}
+button {
+	background-color: #ef4646;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius:12px;
+}
+
+#footer-help h5{
+	font-weight: bold;
+}
+.sm-margin{
+	margin-right:2vw;
+	align-items:center;
+	display:flex;
+}
+.sm-margin .end{
+	display:flex;
+	align-items:center;
+}
+
+@media (max-width: 576px) {
+	#footer_empresas {
+		text-align:center;
+	}
+	#footer_empresas div {
+		margin-top: 5px;
+	}
+}
