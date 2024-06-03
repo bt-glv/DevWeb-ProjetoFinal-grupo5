@@ -1,6 +1,9 @@
-* {
+*, html {
 	font-family: 'Inter', sans-serif;
 	text-decoration: none !important;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 
@@ -8,6 +11,7 @@
 nav {
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.151);
 	background-color: #FCFCFC;
+	
 }
 .nav-bar-custom {
 	padding: 24px 24px 0px 24px;
@@ -27,6 +31,16 @@ nav {
 	margin: 16px;
 	text-decoration: none;
 	letter-spacing: 1px;
+}
+
+.nav-bar-custom .navigator li a{
+	color: rgba(0, 0, 0, 0.664);
+	
+}
+
+.nav-bar-custom .navigator li a:hover{
+	color: black
+	
 }
 
 
@@ -54,6 +68,10 @@ nav {
 	padding-bottom: 24px;
 }
 
+.nav-bar-search .input-wrapper {
+	border: none;
+}
+
 .input-wrapper {
 	position: relative;
 	display: inline-block;
@@ -76,16 +94,57 @@ nav {
 	color: #aaa;
 }
 
+.input-with-icon {
+	outline: none;
+}
+
 
 
 
 
 /* NavBar - Fim */
 
+/* Body - Inicio */
+
+.card-anuncio {
+	width: 100%;
+}
+
+.card-anuncio h4{
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.card-anuncio .card-texto{
+	font-size: 0.7rem;
+	line-height: 0.5rem;
+}
+
+
+.avaliacao {
+	width: 20px;
+	height: 20px;
+	background-color: #EF4646;
+	margin-right: 3px;
+	font-size: 0.9rem;
+	color: #FCFCFC;
+	border-radius: 8px 8px 8px 0px;
+	padding: 4px;
+}
+
+
+
+
+/* Body - Fim */
+
 /* Footer - Inicio */
 .footer {
 	background-color: #f5f3f3;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233);
+}
+
+.rodape {
+	justify-content: space-around;
 }
 /* Footer - Fim */
 .topic {
