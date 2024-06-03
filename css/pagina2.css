@@ -36,6 +36,11 @@ button {
 .txt-center {
 	text-align: center;
 }
+/* Margin utilities */
+.mt-8 {margin-top: 8vh;}
+.mt-16 {margin-top: 16vh;}
+
+/* */
 .page-start		{ margin-top: 16vh; }
 .page-section 	{ margin-top: 8vh;}
 .form-group 	{ margin-bottom: 1rem; }
@@ -43,11 +48,12 @@ button {
 .form-control	{ background-color: #d9d9d9 !important; }
 .form-control.xl{ height: 20vh !important; }
 .form-control.md{ height: 8vh !important; }
-
+#gmap-iframe { height: 40vh;margin-top:8vh; }
 #txt-ajuda {
 	margin-left:4vw;
 	margin-right:4vw;
 }
+
 /* Estilos para o tamanho de tela "sm" */
 @media (max-width: 576px) {
 	#footer_empresas {
