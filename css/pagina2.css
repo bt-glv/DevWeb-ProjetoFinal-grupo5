@@ -39,4 +39,12 @@ button {
 	#footer_empresas div {
 		margin-top: 5px;
 	}
+	.footer-item {
+		text-align:center;
+		align-items:center;
+		margin-bottom:15px;
+	}
+	.footer-item h5 {
+		font-weight:bold;
+	}
 }
