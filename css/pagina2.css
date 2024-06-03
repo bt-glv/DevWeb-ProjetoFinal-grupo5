@@ -1,11 +1,54 @@
 
+/* Somente Classes */
+.sm-margin{
+	margin-right:2vw;
+	align-items:center;
+	display:flex;
+}
+.sm-margin .end{
+	display:flex;
+	align-items:center;
+}
+.bg-secundario{ background-color: #d9d9d9; }
 
+.carousel-control-next-icon {
+	fill:#ef4646;
+    background-image: url("../img/forward.png") !important;
+}
+.carousel-control-prev-icon {
+	fill:#ef4646;
+    background-image: url("../img/back.png") !important;
+}
+
+/* Margin utilities */
+.mt-8 {margin-top: 8vh;}
+.mt-16 {margin-top: 16vh;}
+.page-start		{ margin-top: 16vh; }
+.page-section 	{ margin-top: 8vh;}
+.txt-center { text-align: center; }
+
+
+/* Formulario & relacionados */
+.form-group 	{ margin-bottom: 1rem; }
+.form-group.nm 	{ margin-bottom:0px; }
+.form-control	{ background-color: #d9d9d9 !important; }
+.form-control.xl{ height: 20vh !important; }
+.form-control.md{ height: 8vh !important; }
+
+/* Somente IDs */
+#gmap-iframe { height: 40vh;margin-top:8vh; }
+#grid-img-main { margin-right:2vw; }
+#footer-help h5{ font-weight: bold; }
+#txt-ajuda {
+	margin-left:4vw;
+	margin-right:4vw;
+}
+
+/* Somente Elementos */
+iframe { border-radius:100%; }
 section {
 	margin-left: 4%;
 	margin-right: 4%;
-}
-.bg-secundario{
-	background-color: #d9d9d9;
 }
 button {
 	background-color: #ef4646;
@@ -21,47 +64,9 @@ button {
 	border-radius:12px;
 }
 
-#footer-help h5{
-	font-weight: bold;
-}
-.sm-margin{
-	margin-right:2vw;
-	align-items:center;
-	display:flex;
-}
-.sm-margin .end{
-	display:flex;
-	align-items:center;
-}
-.txt-center {
-	text-align: center;
-}
-/* Margin utilities */
-.mt-8 {margin-top: 8vh;}
-.mt-16 {margin-top: 16vh;}
-
-/* */
-.page-start		{ margin-top: 16vh; }
-.page-section 	{ margin-top: 8vh;}
-.form-group 	{ margin-bottom: 1rem; }
-.form-group.nm 	{ margin-bottom:0px; }
-.form-control	{ background-color: #d9d9d9 !important; }
-.form-control.xl{ height: 20vh !important; }
-.form-control.md{ height: 8vh !important; }
-#gmap-iframe { height: 40vh;margin-top:8vh; }
-#txt-ajuda {
-	margin-left:4vw;
-	margin-right:4vw;
-}
 
 /* Estilos para o tamanho de tela "sm" */
 @media (max-width: 576px) {
-	#footer_empresas {
-		text-align:center;
-	}
-	#footer_empresas div {
-		margin-top: 5px;
-	}
 	.footer-item {
 		text-align:center;
 		align-items:center;
@@ -77,5 +82,14 @@ button {
 	#txt-ajuda {
 		margin-left: 0px;
 		margin-right:0px;
+	}
+	#grid-img-main {
+		margin-right:0px;
+	}
+	#footer_empresas {
+		text-align:center;
+	}
+	#footer_empresas div {
+		margin-top: 5px;
 	}
 }
