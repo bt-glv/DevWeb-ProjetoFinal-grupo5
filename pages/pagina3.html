@@ -28,20 +28,34 @@
 <body>
 	<header>
 		<nav class="navbar-expand-md">
-			<div class="nav-bar-custom">
-				<div class="logo">
-					<a href="">ClassFit</a>
+
+			<div class="row justify-content-center nav-bar-custom">
+				<div class="col-6 col-sm-6 col-md-3 logo">
+					<img src="../img/Focus.png" alt="">
 				</div>
-				<ul class="navigator justify-content-center collapse navbar-collapse">
-					<li><a href="">Academias</a></li>
-					<li><a href="">Suplementos</a></li>
-					<li><a href="">Instrutores</a></li>
-				</ul>
-				<div class="button-menu ">
-					<img class="img-menu" src="../img/menu-bars.svg" alt="">
-					<img class="img-icone" src="../img/profile_icone.svg" alt="">
+				<div class="d-sm-none d-md-flex col-sm-0 col-md-3 navigator justify-content-center collapse navbar-collapse">
+					<div class="ml-8"><a class="not_i" href="">Academias</a></div>
+					<div class="ml-8"><a class="not_i" href="">Suplementos</a></div>
+					<div class="ml-8"><a class="not_i" href="">Instrutores</a></div>
+				</div>
+				<div class="d-flex col-6 col-sm-6 col-md-3 justify-content-end">
+					<div class="dropdown">
+						<button class="button-menu" type="button" role="button" data-bs-toggle="dropdown" aria-controls="offcanvasExample">
+							<img class="img-menu"  src="../img/menu-bars.svg" alt="">
+							<img class="img-icone" src="../img/profile_icone.svg" alt="">
+						</button>
+						  <ul class="dropdown-menu">
+							<li><a class="dropdown-item not_i" href="#">Login</a></li>
+							<li><a class="dropdown-item not_i" href="#">Registre-se</a></li>
+							<li><hr style="margin-right:10px;margin-left:10px;"></hr></li>
+							<li><a class="dropdown-item" href="../index.html">index.html</a></li>
+							<li><a class="dropdown-item" href="pagina2.html">pagina2.html</a></li>
+							<li><a class="dropdown-item" href="pagina3.html">pagina3.html</a></li>
+						  </ul>
+					</div>
 				</div>
 			</div>
+
 			<div class="nav-bar-search mt-md-0 mt-ms-4 mt-4">
 				<div class="input-wrapper">
 					<input type="text" class="input-with-icon" placeholder="Digite algo...">
@@ -49,6 +63,10 @@
 					<!-- Você pode substituir isso por um ícone de uma biblioteca como FontAwesome -->
 				</div>
 			</div>
+
+
+
+
 		</nav>
 
 	</header>
@@ -109,7 +127,7 @@
 
                         </div>
                     </div>
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Mandar mensagem</button></div>
+                    <div class="text-center not_i"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Mandar mensagem</button></div>
                 </form>
 
 
@@ -163,6 +181,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
+	<script src="../js/scirpt.js"></script>
 </body>
 
 

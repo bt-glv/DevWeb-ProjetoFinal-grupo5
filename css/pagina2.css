@@ -36,7 +36,7 @@
 .form-control.md{ height: 8vh !important; }
 
 /* Somente IDs */
-#gmap-iframe { height: 40vh;margin-top:8vh; }
+#gmap-iframe { height: 40vh; margin-top:8vh; }
 #grid-img-main { margin-right:2vw; }
 #footer-help h5{ font-weight: bold; }
 #txt-ajuda {
@@ -49,19 +49,6 @@ iframe { border-radius:100%; }
 section {
 	margin-left: 4%;
 	margin-right: 4%;
-}
-button {
-	background-color: #ef4646;
-	border: none;
-	color: white;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 4px 2px;
-	font-size: 16px;
-	cursor: pointer;
-	border-radius:12px;
 }
 
 

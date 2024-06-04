@@ -25,31 +25,7 @@
 
 <body id="page-top">
 
-	<header >
-	<!-- Offcanvas start -->
-		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-		  <div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-		  </div>
-		  <div class="offcanvas-body">
-			<div>
-			  Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-			</div>
-			<div class="dropdown mt-3">
-			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-				Dropdown button
-			  </button>
-			  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				<li><a class="dropdown-item" href="#">Action</a></li>
-				<li><a class="dropdown-item" href="#">Another action</a></li>
-				<li><a class="dropdown-item" href="#">Something else here</a></li>
-			  </ul>
-			</div>
-		  </div>
-			</div>
-	<!-- Offcanvas end -->
-
+	<header>
 		<nav class="navbar-expand-md">
 
 			<div class="row justify-content-center nav-bar-custom">
@@ -57,22 +33,25 @@
 					<img src="img/Focus.png" alt="">
 				</div>
 				<div class="d-sm-none d-md-flex col-sm-0 col-md-3 navigator justify-content-center collapse navbar-collapse">
-					<div class="ml-8"><a href="">Academias</a></div>
-					<div class="ml-8"><a href="">Suplementos</a></div>
-					<div class="ml-8"><a href="">Instrutores</a></div>
+					<div class="ml-8"><a class="not_i" href="">Academias</a></div>
+					<div class="ml-8"><a class="not_i" href="">Suplementos</a></div>
+					<div class="ml-8"><a class="not_i" href="">Instrutores</a></div>
 				</div>
 				<div class="d-flex col-6 col-sm-6 col-md-3 justify-content-end">
-					<button class="button-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-						<img class="img-menu" src="img/menu-bars.svg" alt="">
-						<img class="img-icone" src="img/profile_icone.svg" alt="">
-					</button>
-
-
-
-
-
-
-
+					<div class="dropdown">
+						<button class="button-menu" type="button" role="button" data-bs-toggle="dropdown" aria-controls="offcanvasExample">
+							<img class="img-menu" src="img/menu-bars.svg" alt="">
+							<img class="img-icone" src="img/profile_icone.svg" alt="">
+						</button>
+						  <ul class="dropdown-menu">
+							<li><a class="dropdown-item not_i" href="#">Login</a></li>
+							<li><a class="dropdown-item not_i" href="#">Registre-se</a></li>
+							<li><hr style="margin-right:10px;margin-left:10px;"></hr></li>
+							<li><a class="dropdown-item" href="index.html">index.html</a></li>
+							<li><a class="dropdown-item" href="pages/pagina2.html">pagina2.html</a></li>
+							<li><a class="dropdown-item" href="pages/pagina3.html">pagina3.html</a></li>
+						  </ul>
+					</div>
 				</div>
 			</div>
 
@@ -244,6 +223,7 @@
 
 
 	<!-- Bootstrap core JS -->
+	<script src="js/scirpt.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
