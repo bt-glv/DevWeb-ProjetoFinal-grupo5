@@ -26,21 +26,56 @@
 <body id="page-top">
 
 	<header >
+	<!-- Offcanvas start -->
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+		  <div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		  </div>
+		  <div class="offcanvas-body">
+			<div>
+			  Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+			</div>
+			<div class="dropdown mt-3">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+				Dropdown button
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<li><a class="dropdown-item" href="#">Action</a></li>
+				<li><a class="dropdown-item" href="#">Another action</a></li>
+				<li><a class="dropdown-item" href="#">Something else here</a></li>
+			  </ul>
+			</div>
+		  </div>
+			</div>
+	<!-- Offcanvas end -->
+
 		<nav class="navbar-expand-md">
-			<div class="nav-bar-custom">
-				<div class="logo">
+
+			<div class="row justify-content-center nav-bar-custom">
+				<div class="col-6 col-sm-6 col-md-3 logo">
 					<img src="img/Focus.png" alt="">
 				</div>
-				<ul class="navigator justify-content-center collapse navbar-collapse">
-					<li><a style="color: #000;" href="">Academias</a></li>
-					<li><a href="">Suplementos</a></li>
-					<li><a href="">Instrutores</a></li>
-				</ul>
-				<div class="button-menu ">
-					<img class="img-menu" src="img/menu-bars.svg" alt="">
-					<img class="img-icone" src="img/profile_icone.svg" alt="">
+				<div class="d-sm-none d-md-flex col-sm-0 col-md-3 navigator justify-content-center collapse navbar-collapse">
+					<div class="ml-8"><a href="">Academias</a></div>
+					<div class="ml-8"><a href="">Suplementos</a></div>
+					<div class="ml-8"><a href="">Instrutores</a></div>
+				</div>
+				<div class="d-flex col-6 col-sm-6 col-md-3 justify-content-end">
+					<button class="button-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+						<img class="img-menu" src="img/menu-bars.svg" alt="">
+						<img class="img-icone" src="img/profile_icone.svg" alt="">
+					</button>
+
+
+
+
+
+
+
 				</div>
 			</div>
+
 			<div class="nav-bar-search mt-md-0 mt-ms-4 mt-4">
 				<div class="input-wrapper">
 					<input type="text" class="input-with-icon" placeholder="Digite algo...">
@@ -48,6 +83,10 @@
 					<!-- Você pode substituir isso por um ícone de uma biblioteca como FontAwesome -->
 				</div>
 			</div>
+
+
+
+
 		</nav>
 
 	</header>
