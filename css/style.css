@@ -109,6 +109,10 @@ nav {
 	width: 100%;
 }
 
+.card-img-top {
+	min-height: 180px;
+}
+
 .card-anuncio h4{
 	font-weight: bold;
 	font-size: 1rem;
