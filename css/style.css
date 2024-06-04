@@ -32,25 +32,38 @@ nav {
 	letter-spacing: 1px;
 }
 
-.nav-bar-custom .navigator li a{
-	color: rgba(0, 0, 0, 0.664);
+.not_i{
+	color: rgba(0, 0, 0, 0.664) !important;
+	font-weight: 500;
 	
 }
 
-.nav-bar-custom .navigator li a:hover{
-	color: black
+.not_i:hover{
+	color: black !important;
 	
 }
 
 
 .nav-bar-custom .button-menu {
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
 	width: 90px;
 	height: 45px;
 	border: 1px solid rgba(0, 0, 0, 0.137);
 	border-radius: 50px;
 	background-color: white;
+	position: relative;
+}
+
+.button-menu img {
+	width: 18px; /* Ajuste o tamanho das imagens conforme necessário */
+	height: auto; /* Mantém a proporção da imagem */
+}
+
+.button-menu  .icon-person {
+	width: 28px; /* Ajuste o tamanho das imagens conforme necessário */
+	
 }
 
 .nav-bar-custom .button-menu .img-menu {
@@ -106,7 +119,19 @@ nav {
 /* Body - Inicio */
 
 .card-anuncio {
+	cursor: pointer;
+	transition: 0.5s;
 	width: 100%;
+}
+
+.card-anuncio:hover {
+	transition: 0.5s;
+	transform: scale(1.05); /* Escala o card para 105% do tamanho original */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082); /* Adiciona uma sombra ao card */
+  }
+
+.card-img-top {
+	min-height: 180px;
 }
 
 .card-anuncio h4{
